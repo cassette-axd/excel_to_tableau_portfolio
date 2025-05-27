@@ -1,7 +1,7 @@
 # Marketing Dashboard
 
 ## Objective
-### To support effective marketing campaigns by identifying and tracking the top-performing UK YouTubers using key performance indicators such as subscribers, video uploads, and total views.
+To support effective marketing campaigns by identifying and tracking the top-performing UK YouTubers using key performance indicators such as subscribers, video uploads, and total views.
 
 ## Challenges
 The BI Reporting team faced significant hurdles in acquiring accurate and comprehensive YouTube data from third-party sources. This created gaps in insight and hindered campaign planning.
