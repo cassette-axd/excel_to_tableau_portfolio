@@ -1,19 +1,19 @@
 # Marketing Dashboard
 
 ## Objective
-To support effective marketing campaigns by identifying and tracking the top-performing UK YouTubers using key performance indicators such as subscribers, video uploads, and total views.
+To support effective marketing campaigns by identifying and tracking the top-performing American Instagram Influencers using key performance indicators such as followers, post uploads, and total followers.
 
 ## Challenges
-The BI Reporting team faced significant hurdles in acquiring accurate and comprehensive YouTube data from third-party sources. This created gaps in insight and hindered campaign planning.
+The Reporting team faced significant hurdles in acquiring accurate and comprehensive Instagram data from third-party sources. This created gaps in insight and hindered campaign planning.
 
 ## Solution
-Developed a unified dashboard that integrates data from Excel, SQL, and Python into Power BI to deliver a clean, interactive visualization of:
+Developed a unified dashboard that integrates data from Excel, SQL, and Python into tableau to deliver a clean, interactive visualization of:
 
-- Top UK YouTubers by subscriber count
+- Top American Instagram Influencers by follower count
 
-- Most active creators by video uploads
+- Most active creators by post uploads
 
-- Channels with the highest total views
+- Topics of influence with the highest total followers
 
 This tool empowers marketing teams to make data-driven decisions when selecting YouTubers for brand partnerships.
 
@@ -24,7 +24,7 @@ This tool empowers marketing teams to make data-driven decisions when selecting 
 
 - SQL: Structured data transformation and querying
 
-- Power BI: Interactive dashboard and report creation
+- Tableau: Interactive dashboard and report creation
 
 ## Features
 - Clean and intuitive visual interface
