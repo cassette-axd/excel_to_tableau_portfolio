@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20252.25.0514.2217                               -->
+<workbook original-version='18.1' source-build='2025.2.0 (20252.25.0514.2217)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='sheet1 (view_usa_ig_2024)' inline='true' name='federated.1jf6v571b1264l13t04g21ecceh2' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='view_usa_ig_2024' name='excel-direct.1014h590f8ynhj197rpqw1pq8z67'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/caseyreyes/personal_projects/excel_to_powerbi_portfolio/data/view_usa_ig_2024.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.1014h590f8ynhj197rpqw1pq8z67' name='sheet1' table='[sheet1$]' type='table'>
+          <columns gridOrigin='A1:E101:no:A1:E101:0' header='yes' outcome='6'>
+            <column datatype='string' name='name' ordinal='0' />
+            <column datatype='string' name='topic' ordinal='1' />
+            <column datatype='string' name='username' ordinal='2' />
+            <column datatype='integer' name='follower_count' ordinal='3' />
+            <column datatype='integer' name='post_count' ordinal='4' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E101:no:A1:E101:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[name]</local-name>
+            <parent-name>[sheet1]</parent-name>
+            <remote-alias>name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[sheet1_40A9B53149364053991395E4CCB46355]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>topic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[topic]</local-name>
+            <parent-name>[sheet1]</parent-name>
+            <remote-alias>topic</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[sheet1_40A9B53149364053991395E4CCB46355]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>username</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[username]</local-name>
+            <parent-name>[sheet1]</parent-name>
+            <remote-alias>username</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[sheet1_40A9B53149364053991395E4CCB46355]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>follower_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[follower_count]</local-name>
+            <parent-name>[sheet1]</parent-name>
+            <remote-alias>follower_count</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[sheet1_40A9B53149364053991395E4CCB46355]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>post_count</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[post_count]</local-name>
+            <parent-name>[sheet1]</parent-name>
+            <remote-alias>post_count</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[sheet1_40A9B53149364053991395E4CCB46355]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Avg Post Count Per Person' datatype='real' name='[Calculation_2557974243616600064]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([post_count])/COUNTD([username])' />
+      </column>
+      <column caption='Distinct Topics Of Influence' datatype='integer' name='[Calculation_2557974243617169409]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([topic])' />
+      </column>
+      <column caption='Total Followers (M)' datatype='integer' name='[Calculation_667729037512728576]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='DIV(SUM([follower_count]), 1000000)' />
+      </column>
+      <column caption='Total Posts (B)' datatype='integer' name='[Calculation_667729037513633794]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='SUM([post_count])' />
+      </column>
+      <column aggregation='None' datatype='integer' name='[Post Count (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='3' formula='[post_count]' peg='0' size='2649' />
+      </column>
+      <column caption='sheet1' datatype='table' name='[__tableau_internal_object_id__].[sheet1_40A9B53149364053991395E4CCB46355]' role='measure' type='quantitative' />
+      <column caption='Follower Count' datatype='integer' name='[follower_count]' role='measure' type='quantitative' />
+      <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+      <column caption='Post Count' datatype='integer' name='[post_count]' role='measure' type='quantitative' />
+      <column caption='Topic' datatype='string' name='[topic]' role='dimension' type='nominal' />
+      <column caption='Username' datatype='string' name='[username]' role='dimension' type='nominal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='/var/folders/qy/c074xc497m3gm7r7q1b3qyvm0000gn/T/tableau-temp/#TableauTemp_1h05isw1b7ytfb1ej7s7o1ao75pm.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/23/2025 03:17:55 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>name</remote-alias>
+              <ordinal>0</ordinal>
+              <family>sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[sheet1_40A9B53149364053991395E4CCB46355]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>topic</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[topic]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>topic</remote-alias>
+              <ordinal>1</ordinal>
+              <family>sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[sheet1_40A9B53149364053991395E4CCB46355]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>username</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[username]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>username</remote-alias>
+              <ordinal>2</ordinal>
+              <family>sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <object-id>[sheet1_40A9B53149364053991395E4CCB46355]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>follower_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[follower_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>follower_count</remote-alias>
+              <ordinal>3</ordinal>
+              <family>sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sheet1_40A9B53149364053991395E4CCB46355]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>post_count</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[post_count]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>post_count</remote-alias>
+              <ordinal>4</ordinal>
+              <family>sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sheet1_40A9B53149364053991395E4CCB46355]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout common-percentage='1' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' user-set-layout-v2='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='sheet1' id='sheet1_40A9B53149364053991395E4CCB46355'>
+            <properties context=''>
+              <relation connection='excel-direct.1014h590f8ynhj197rpqw1pq8z67' name='sheet1' table='[sheet1$]' type='table'>
+                <columns gridOrigin='A1:E101:no:A1:E101:0' header='yes' outcome='6'>
+                  <column datatype='string' name='name' ordinal='0' />
+                  <column datatype='string' name='topic' ordinal='1' />
+                  <column datatype='string' name='username' ordinal='2' />
+                  <column datatype='integer' name='follower_count' ordinal='3' />
+                  <column datatype='integer' name='post_count' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Follower Count Per Person'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sheet1 (view_usa_ig_2024)' name='federated.1jf6v571b1264l13t04g21ecceh2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jf6v571b1264l13t04g21ecceh2'>
+            <column caption='Follower Count' datatype='integer' name='[follower_count]' role='measure' type='quantitative' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[follower_count]' derivation='Sum' name='[sum:follower_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1jf6v571b1264l13t04g21ecceh2].[none:name:nk]' direction='DESC' using='[federated.1jf6v571b1264l13t04g21ecceh2].[sum:follower_count:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1jf6v571b1264l13t04g21ecceh2].[none:name:nk]</rows>
+        <cols>[federated.1jf6v571b1264l13t04g21ecceh2].[sum:follower_count:qk]</cols>
+      </table>
+      <simple-id uuid='{183BFCC0-456C-4328-B1D5-45DF172DCF42}' />
+    </worksheet>
+    <worksheet name='Post Count Per Person'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Number of Posts Per Person</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sheet1 (view_usa_ig_2024)' name='federated.1jf6v571b1264l13t04g21ecceh2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jf6v571b1264l13t04g21ecceh2'>
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column caption='Post Count' datatype='integer' name='[post_count]' role='measure' type='quantitative' />
+            <column-instance column='[post_count]' derivation='Sum' name='[sum:post_count:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.1jf6v571b1264l13t04g21ecceh2].[none:name:nk]' direction='DESC' using='[federated.1jf6v571b1264l13t04g21ecceh2].[sum:post_count:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1jf6v571b1264l13t04g21ecceh2].[none:name:nk]</rows>
+        <cols>[federated.1jf6v571b1264l13t04g21ecceh2].[sum:post_count:qk]</cols>
+      </table>
+      <simple-id uuid='{CC479482-29E6-4738-AFBA-37EE8C8674DF}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{32676F25-494D-4E60-84A1-70AB0EAF3AAD}' />
+    </worksheet>
+    <worksheet name='Topic Engagement'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sheet1 (view_usa_ig_2024)' name='federated.1jf6v571b1264l13t04g21ecceh2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jf6v571b1264l13t04g21ecceh2'>
+            <column caption='Follower Count' datatype='integer' name='[follower_count]' role='measure' type='quantitative' />
+            <column-instance column='[topic]' derivation='None' name='[none:topic:nk]' pivot='key' type='nominal' />
+            <column-instance column='[follower_count]' derivation='Sum' name='[sum:follower_count:qk]' pivot='key' type='quantitative' />
+            <column caption='Topic' datatype='string' name='[topic]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1jf6v571b1264l13t04g21ecceh2].[none:topic:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:topic:nk]' />
+              <groupfilter function='member' level='[none:topic:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1jf6v571b1264l13t04g21ecceh2].[none:topic:nk]' value='480' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1jf6v571b1264l13t04g21ecceh2].[none:topic:nk]</rows>
+        <cols>[federated.1jf6v571b1264l13t04g21ecceh2].[sum:follower_count:qk]</cols>
+      </table>
+      <simple-id uuid='{9031F02B-1E02-4A1D-A8F3-D9C7FDC03D85}' />
+    </worksheet>
+    <worksheet name='Topic Engagement With Name'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Engagement of Each Topic (With Name)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sheet1 (view_usa_ig_2024)' name='federated.1jf6v571b1264l13t04g21ecceh2' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1jf6v571b1264l13t04g21ecceh2'>
+            <column caption='Follower Count' datatype='integer' name='[follower_count]' role='measure' type='quantitative' />
+            <column caption='Name' datatype='string' name='[name]' role='dimension' type='nominal' />
+            <column-instance column='[name]' derivation='None' name='[none:name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[topic]' derivation='None' name='[none:topic:nk]' pivot='key' type='nominal' />
+            <column-instance column='[follower_count]' derivation='Sum' name='[sum:follower_count:qk]' pivot='key' type='quantitative' />
+            <column caption='Topic' datatype='string' name='[topic]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1jf6v571b1264l13t04g21ecceh2].[none:topic:nk]' kind='hide'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:topic:nk]' />
+              <groupfilter function='member' level='[none:topic:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <alphabetic-sort column='[federated.1jf6v571b1264l13t04g21ecceh2].[none:topic:nk]' direction='DESC' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.1jf6v571b1264l13t04g21ecceh2].[none:topic:nk]' value='524' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>([federated.1jf6v571b1264l13t04g21ecceh2].[none:name:nk] / [federated.1jf6v571b1264l13t04g21ecceh2].[none:topic:nk])</rows>
+        <cols>[federated.1jf6v571b1264l13t04g21ecceh2].[sum:follower_count:qk]</cols>
+      </table>
+      <simple-id uuid='{5C1CFACE-886E-4B17-8459-F087BD5F3EF9}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Posts and Followers'>
+      <style />
+      <size maxheight='860' maxwidth='650' minheight='560' minwidth='420' />
+      <zones>
+        <zone h='100000' id='6' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='48931' id='5' name='Post Count Per Person' w='97538' x='1231' y='1004'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone h='49061' id='7' param='vert' type-v2='layout-flow' w='97538' x='1231' y='49935'>
+            <zone h='49061' id='8' name='Follower Count Per Person' w='97538' x='1231' y='49935'>
+              <layout-cache fixed-size-h='2118' type-h='fixed' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='10' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='97992' id='9' param='vert' type-v2='layout-flow' w='97538' x='1231' y='1004'>
+                <zone fixed-size='280' h='48931' id='5' is-fixed='true' name='Post Count Per Person' w='97538' x='1231' y='1004'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49061' id='8' is-fixed='true' name='Follower Count Per Person' w='97538' x='1231' y='49935'>
+                  <layout-cache fixed-size-h='2118' type-h='fixed' type-w='fixed' />
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{41D5C88A-DB55-4269-86C8-84F02304E4B3}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Post Count Per Person'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{CAD88CE5-A9DF-4EFC-949A-80835238EE25}' />
+    </window>
+    <window class='dashboard' name='Posts and Followers'>
+      <viewpoints>
+        <viewpoint name='Follower Count Per Person' />
+        <viewpoint name='Post Count Per Person' />
+      </viewpoints>
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{FEBCACF8-A50B-4024-BFD7-BAC0FF88A23A}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='31'>
+            <card type='columns' />
+          </strip>
+          <strip size='31'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{DB7A28EF-E0A4-4FD8-984F-A7E43E10A0D2}' />
+    </window>
+    <window class='worksheet' name='Follower Count Per Person'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{5C4FA8FE-2B94-47C3-8B69-1AA8E2E60BFA}' />
+    </window>
+    <window class='worksheet' name='Topic Engagement With Name'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{648DC11E-0498-4212-967D-E3135716B9F9}' />
+    </window>
+    <window class='worksheet' name='Topic Engagement'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8E3BF008-F2E2-4BDA-BE3C-7ED8217B34F8}' />
+    </window>
+  </windows>
+</workbook>
