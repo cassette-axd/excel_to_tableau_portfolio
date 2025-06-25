@@ -29,7 +29,7 @@ This tool empowers marketing teams to make data-driven decisions when selecting 
 ## Features
 - Clean and intuitive visual interface
 
-- Filtering by metric (subscribers, uploads, views)
+- Filtering by metric (followers, posts, topics of influence)
 
 - Ability to compare channels across performance metrics
 
