@@ -15,7 +15,7 @@ Developed a unified dashboard that integrates data from Excel, SQL, and Python i
 
 - Topics of influence with the highest total followers
 
-This tool empowers marketing teams to make data-driven decisions when selecting YouTubers for brand partnerships.
+This tool empowers marketing teams to make data-driven decisions when selecting Instagram users for brand partnerships.
 
 ## Tools and Technologies
 - Excel: Initial data collection and cleaning
